@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullcontainer{
+position: relative;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+
+.bgfundo{
+    background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+    /* 
+    background-color: blue;
+    background-image: url (https://placehold.co/1920x1080);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    */
+    width: 100%;
+    height: 700px;
+}
+/* fixado */
+header{
+    color: #fff;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0% rgba(0,0,0,0.8) 60%, rgba(0,0,0,0) 100%);
+
+    padding: 24px 0;
+}
