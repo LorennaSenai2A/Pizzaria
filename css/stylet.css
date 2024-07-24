@@ -1,38 +1,129 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
+/*padrão do meu jeito*/
 
-.fullcontainer{
-position: relative;
-padding: 0;
-margin: 0;
-overflow: hidden;
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
-
-.bgfundo{
-    background: url(https://placehold.co/1920x1080) no-repeat center/cover;
-    /* 
+/*0 relativo, o absoluto sobe pra cima, esconde o overflow*/
+.bgfundo {
+  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  /* fazer parte de utilização*/
+  /* 
     background-color: blue;
     background-image: url (https://placehold.co/1920x1080);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; 
     */
-    width: 100%;
-    height: 700px;
+  width: 100%;
+  height: 700px;
 }
-/* fixado */
-header{
-    color: #fff;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    
-    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0% rgba(0,0,0,0.8) 60%, rgba(0,0,0,0) 100%);
 
-    padding: 24px 0;
+header {
+  color: #fff;
+  position: fixed; /* fixado e não se mexe */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+/*estilizou a back, todo texto foi colocado branco*/
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+/* começou de baixo pra cima e foi frencendo no back/ */
+background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  padding: 24px 0;
+}
+
+.container{
+max-width: 1073px;
+margin: 0 auto ;
+}
+  
+.main-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation ul {
+  list-style: none; /*ele tira a bolinha da lista*/
+  display: flex; /*Trabalhar de forma flexivel*/
+  gap: 28px; /*espaçamento geral ou entre*/
+  align-items: center; 
+  margin: 0;
+}
+.main-navigation a {
+  color: #fff;
+  height: 125px;
+  display: block;
+  text-decoration: none;
+  font-size: 17px; /*tamanho*/
+  font-weight: 700 ; /*engrossamento*/
+  font-family: Helvetica, sans-serif; /*de onde vem*/
+  /*line-height: 1.3125;*/
+  /*outline-offset: -1px;*/
+ /*padding: 6px 12px;*/
+  /*margin-bottom: -8px;*/
+  border-bottom: solid 3px transparent;
+}
+.main-navigation a:hover,
+.main-navigation a:focus /*foco*/ {
+  border-color: #e7a200;
+}
+
+.site-header-main{
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+}
+
+.sec-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sec-menu ion-icon {
+    font-size: 25px;
+}
+
+#btnZap{
+    background: #e7a200;
+    border-radius: 65px;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#btnZap ion-icon{
+    font-size: 26px;
 }
