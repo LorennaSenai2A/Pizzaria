@@ -198,12 +198,30 @@ font-family: 'Times New Roman', Times, serif;
   padding: 0;
 }
 
-/* #Cardapio div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+#Cardapio h2{
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0 ;
 }
 
-#Cardapio div img{
-  height: 100%;
-} */
+
+.btnCardapio {
+  text-decoration: none;
+  color: #fff;
+  background: #8daa30;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-bottom: 2px solid #6b7552;
+}
+
+#PromoPizzas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
