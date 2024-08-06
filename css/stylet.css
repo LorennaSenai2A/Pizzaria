@@ -14,7 +14,7 @@ body {
 }
 /*0 relativo, o absoluto sobe pra cima, esconde o overflow*/
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/pizzaCapa.png) no-repeat center/cover;
   /* fazer parte de utilização*/
   /* 
     background-color: blue;
