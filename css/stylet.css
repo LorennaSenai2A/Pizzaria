@@ -92,7 +92,7 @@ header {
 }
 .main-navigation a:hover,
 .main-navigation a:focus /*foco*/ {
-  border-color: #e7a200;
+  border-color: #e7a;
 }
 
 .site-header-main {
@@ -112,7 +112,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #e7a;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -137,11 +137,12 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-  z-index: 10;;
+  z-index: 10;
+  
 
-  box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+  /* box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75); */
 /* sombra */
 }
 
@@ -174,7 +175,7 @@ font-family: 'Times New Roman', Times, serif;
 #TextoBoasVindas h3{
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #e7a;
   font-size: 23px;
   margin-top: 20px;
   margin-bottom: 0;
@@ -199,7 +200,7 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 #Cardapio h2{
-  color: #d03012;
+  color: #4ca5ff;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 900;
@@ -210,7 +211,7 @@ font-family: 'Times New Roman', Times, serif;
 .btnCardapio {
   text-decoration: none;
   color: #fff;
-  background: #8daa30;
+  background: #86d65e;
   padding: 10px 20px;
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
@@ -239,7 +240,7 @@ text-align: center;
 
 #Delivery h1{
 text-transform: uppercase;
-color: #bf0a26;
+color: #4ca5ff;
 font-weight: 900;
 }
 
@@ -282,7 +283,7 @@ text-align: center;
 }
 
 .forms h2{
-  color: #e7a200;
+  color: #e7a;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -319,8 +320,8 @@ margin-bottom: 10px;
 }
 
 .forms input[type="submit"] {
-  background: #e7a200;
-  border-color: #e7a200;
+  background: #e7a;
+  border-color: #e7a;
   width: 155px;
   border-radius: 50px;
   color: #fff;
@@ -329,7 +330,7 @@ margin-bottom: 10px;
 }
 
 footer {
-  background: #e7a200;
+  background: #e7a;
   min-height: 400px;
   margin-top: -281px;
   color: #fff;
